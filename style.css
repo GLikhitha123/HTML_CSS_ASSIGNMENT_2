@@ -19,35 +19,37 @@
     height: 20vh;
 }
 .form{
-    width: 300px;
+    width: 500px;
     height: 200px;
     background: #fff;
     position: absolute;
     top: 250px;
-    left: 650px;
+    left: 500px;
     border-radius: 10px;
-    padding: 25px;
+    padding: 70px;
 }
 
 .form input{
-    width: 200px;
-    height: 20px;
+    width: 400px;
+    height: 30px;
     background:transparent;
     border-bottom: 1px solid black;
     border-top: none;
     border-left: none;
     border-right: none;
     color: darkblue;
-    font-size: 15px;
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 40px;
     font-family: sans-serif;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .form input:focus{
     outline: none;
 }
 .form h4{
-    margin-left: 110px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 ::placeholder{
     color: black;
@@ -62,39 +64,17 @@
     margin-top: 20px;
     font-size: 15px;
     left: 20px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .btnn a{
     font-family:Arial, Helvetica, sans-serif;
     color: #fff;
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 20px;
+    padding-top: 30px;
     position: center;
 }
-.form image{
-    height: 21px;
-    width: 21px;
-    left: 20px;
+.form img{
+    height: 50px;
+    width: 60px;
 }
 
-.mail{
-    background: url(mail.png);
-    width: 5%;
-    background-position: center;
-    background-size: cover;
-    margin-left: 650px;
-    position: absolute;
-    margin-top: 100px;
-    margin-right: 200px;
-}
-
-.pencil{
-    background: url(pencil.png);
-    width: 5%;
-    height: 55px;
-    background-position: center;
-    background-size: cover;
-    margin-left: 650px;
-    position: absolute;
-    margin-top: 200px;
-}
