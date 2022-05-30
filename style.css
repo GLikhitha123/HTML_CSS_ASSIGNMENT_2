@@ -71,3 +71,30 @@
     padding-top: 20px;
     position: center;
 }
+.form image{
+    height: 21px;
+    width: 21px;
+    left: 20px;
+}
+
+.mail{
+    background: url(mail.png);
+    width: 5%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.pencil{
+    background: url(pencil.png);
+    width: 5%;
+    height: 55px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 200px;
+}
