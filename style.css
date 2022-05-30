@@ -31,17 +31,18 @@
 
 .form input{
     width: 400px;
-    height: 30px;
+    height: 20px;
     background:transparent;
     border-bottom: 1px solid black;
     border-top: none;
     border-left: none;
     border-right: none;
     color: darkblue;
-    font-size: 20px;
-    margin-top: 40px;
+    font-size: 40px;
+    margin-top: 20px;
     font-family: sans-serif;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 .form input:focus{
     outline: none;
@@ -74,7 +75,8 @@
     position: center;
 }
 .form img{
-    height: 50px;
+    height: 40px;
     width: 60px;
 }
+
 
