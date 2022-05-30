@@ -11,7 +11,7 @@
 }
 
 .logo{
-    width:45%;
+    width: 45%;
     background: url(logo.png);
     background-size: cover;
     margin-left: 500px;
@@ -28,7 +28,46 @@
     border-radius: 10px;
     padding: 25px;
 }
-.form input{
-    
-}
 
+.form input{
+    width: 200px;
+    height: 20px;
+    background:transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: darkblue;
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+.form input:focus{
+    outline: none;
+}
+.form h4{
+    margin-left: 110px;
+}
+::placeholder{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.btnn{
+    width: 150px;
+    height: 30px;
+    background: darkblue;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    left: 20px;
+    margin-left: 50px;
+}
+.btnn a{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 20px;
+    position: center;
+}
